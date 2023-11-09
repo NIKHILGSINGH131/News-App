@@ -5,7 +5,7 @@ import "./NewsApp.css";
 function NewsApp() {
   const apiKey = "e0e74ed7ee9b4923bd03e9109fbf8fb2";
   const [key, setKey] = useState("tesla");
-   const apiUrl = `https://newsapi.org/v2/everything?q=${key}&from=2023-10-09&sortBy=publishedAt&apiKey=${apiKey}`;
+   https://newsapi.org/v2/everything?q=tesla&from=2023-10-09&sortBy=publishedAt&apiKey=e0e74ed7ee9b4923bd03e9109fbf8fb2
   const [newsList, setNewsList] = useState([]);
   const keyInputref = useRef(null);
   
